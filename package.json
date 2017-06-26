@@ -1,0 +1,12 @@
+{
+  "name": "yarn-docker-test",
+  "version": "0.0.1",
+  "author": "Kellen Hart <kellenhart@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node serve"
+  },
+  "dependencies": {
+    "react": "^15.6.0"
+  }
+}

@@ -1,0 +1,13 @@
+version: "2.0"
+volumes:
+  node_modules:
+services:
+  server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/opt/app
+      - node_modules:/opt/app/node_modules
+    stdin_open: true
+    tty: true
